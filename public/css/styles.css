@@ -1,0 +1,59 @@
+body{
+    color:#953652 ;
+    font-family: cursive;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100 vh
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer{
+    background-color:salmon;
+    border-top:10px solid seagreen;
+    padding: 16px;
+
+    margin-top: 10px;
+}
+
+header{
+    background-color: violet;
+    margin-top: 16px;
+    margin-bottom: 48px ;
+}
+
+h1{
+    font-size: 48px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+header a{
+    font-size: 18px;
+    font-family: fantasy;
+    font-style:inherit;
+    color: firebrick;
+    text-decoration: underline;
+}
+
+.portrait{
+    width: 250px;
+}
+
+input{
+    border: 2px solid chocolate;
+    padding: 8px;
+}
+
+button{
+    cursor: pointer;
+    border : 2px solid peru;
+    background: peru;
+    color: black;
+    padding: 8px;
+}
