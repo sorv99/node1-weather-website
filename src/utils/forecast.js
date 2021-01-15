@@ -14,7 +14,7 @@ const forecast = (latitude,longitude,callback) =>{
         }
         else{
             callback(undefined,
-                body.current.weather_descriptions[0]+". The temperature in " + body.location.name + " is " +body.current.temperature +" degrees!!! "+ "And it feels like " + body.current.feelslike +" degrees!!")
+                body.current.weather_descriptions[0]+". The temperature in " + body.location.name + " is " +body.current.temperature +" degrees!!! "+ "And it feels like " + body.current.feelslike +" degrees!! . Humidity is "+ body.current.humidity +"%. This data was observerd at "+ body.current.observation_time)
         }
     })
 
